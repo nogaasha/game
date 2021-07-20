@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import Routes from './components/routes'
-import TopBar from './components/topbar'
+import TopBar from './components/topbar2'
 
 const Main = () => {
   return (
