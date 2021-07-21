@@ -28,5 +28,5 @@
 5. Run project in Dev mode
 
   ```shell
-  $ yarn dev:watch
+  $ yarn run dev:watch
   ```
