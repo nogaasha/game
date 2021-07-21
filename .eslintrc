@@ -8,6 +8,9 @@
   "globals": {
     "document": true
   },
+  // "eslint.options": {
+  //   "devel": true
+  // },
   "rules": {
     "semi": "off",
     "arrow-body-style": "off",
@@ -18,6 +21,14 @@
           ".js",
           ".jsx"
         ]
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "ignoreComments": true,
+        "ignoreStrings": true,
+        "code": 240
       }
     ]
   }
