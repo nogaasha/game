@@ -1,0 +1,13 @@
+import React fron 'react'
+
+const GameMenu = () => {
+  return (
+     <Switch>
+      <Route exact path="/" component={() => <GlobalFeed />} />
+      <Route exact path="/articles" component={() => <Article />} />
+      <Route exact path="/game" component={() => <Game />} />
+    </Switch>
+  )  
+}
+
+export default Article

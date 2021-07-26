@@ -8,7 +8,6 @@ import './main.scss'
 
 const target = document.getElementById('root')
 
-// ReactDOM.render(<Main />, target)
 ReactDOM.render(
   <Provider store={store}>
     <Main />
